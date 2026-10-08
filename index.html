@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ResourceBox - Free Graphic Design Assets</title>
-    <!-- Tailwind CSS for clean layout styling -->
-    <link href="https://jsdelivr.net" rel="stylesheet">
+    <!-- Stable Tailwind CSS CDN Engine -->
+    <script src="https://jsdelivr.net"></script>
     <!-- Official Supabase Library -->
     <script src="https://jsdelivr.net"></script>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-50 text-gray-900 font-sans">
 
     <!-- Header & Navigation -->
-    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <h1 class="text-2xl font-black text-indigo-600 tracking-tight cursor-pointer" onclick="filterCategory('All')">ResourceBox</h1>
             
@@ -26,14 +26,14 @@
     <!-- Dynamic Category Filter Ribbon -->
     <div class="bg-white border-b border-gray-100">
         <div id="category-tags" class="max-w-6xl mx-auto px-4 py-3 flex gap-3 overflow-x-auto text-sm font-medium">
-            <!-- Categories will inject here automatically -->
+            <!-- Categories inject here -->
         </div>
     </div>
 
     <!-- Main Workspace -->
     <main class="max-w-6xl mx-auto px-4 py-12">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-extrabold tracking-tight">Free Premium Design Resources</h2>
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900">Free Premium Design Resources</h2>
             <p class="mt-2 text-lg text-gray-500">High-quality mockups and vectors linked directly to your 5 TB Google Drive storage.</p>
         </div>
 
